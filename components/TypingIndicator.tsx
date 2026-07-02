@@ -1,0 +1,1 @@
+export function TypingIndicator() { return <div className="flex w-fit gap-1 rounded-[8px] bg-white/10 px-4 py-3">{[0,1,2].map((i) => <span key={i} className="h-2 w-2 animate-pulse rounded-full bg-kapruka-yellow" style={{ animationDelay: String(i * 120) + "ms" }} />)}</div>; }

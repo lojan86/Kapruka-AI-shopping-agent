@@ -1,0 +1,4 @@
+"use client";
+import { useState } from "react";
+import { MapPin } from "lucide-react";
+export function DeliveryEstimator() { const [address, setAddress] = useState(""); const colombo = /colombo|dehiwala|kotte|rajagiriya|nugegoda/i.test(address); return <div className="rounded-[8px] border border-white/15 bg-white/10 p-3 text-sm text-white"><div className="mb-2 flex items-center gap-2 font-semibold"><MapPin size={16}/> Delivery intelligence</div><input value={address} onChange={(e) => setAddress(e.target.value)} placeholder="City or address" className="w-full rounded-[8px] border border-white/10 bg-white px-3 py-2 text-kapruka-ink outline-none"/><p className="mt-2 text-white/75">{address ? (colombo ? "Likely same-day or next-day delivery." : "Plan 2-4 days and confirm a delivery quote.") : "Enter location to estimate urgency."}</p></div>; }

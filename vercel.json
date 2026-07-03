@@ -5,9 +5,9 @@
   "public": false,
   "env": [
     {
-      "key": "OPENAI_API_KEY",
-      "description": "OpenAI API Key for AI-powered chat functionality",
-      "value": "@openai_api_key"
+      "key": "OPENROUTER_API_KEY",
+      "description": "OpenRouter API Key for AI-powered chat functionality",
+      "value": "@openrouter_api_key"
     }
   ]
 }

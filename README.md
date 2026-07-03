@@ -1,6 +1,6 @@
 # Kapruka AI Shopping Agent
 
-An intelligent AI-powered shopping assistant built with Next.js and OpenAI, designed to provide personalized product recommendations and a seamless shopping experience.
+An intelligent AI-powered shopping assistant built with Next.js and OpenRouter, designed to provide personalized product recommendations and a seamless shopping experience.
 
 ## Overview
 
@@ -8,7 +8,7 @@ Kapruka AI Shopping Agent is a modern web application that combines conversation
 
 ## Features
 
-- **AI-Powered Chat**: Conversational shopping assistant powered by OpenAI
+- **AI-Powered Chat**: Conversational shopping assistant powered by OpenRouter
 - **Intelligent Product Recommendations**: Smart product suggestions based on user queries
 - **Product Catalog**: Browse and search through a curated product database
 - **Shopping Cart**: Manage items with real-time cart updates
@@ -22,7 +22,7 @@ Kapruka AI Shopping Agent is a modern web application that combines conversation
 - **Frontend Framework**: Next.js 14
 - **Language**: TypeScript
 - **UI Styling**: Tailwind CSS + Radix UI
-- **AI Integration**: OpenAI API
+- **AI Integration**: OpenRouter API
 - **State Management**: Zustand
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
@@ -67,7 +67,7 @@ Kapruka AI Shopping Agent is a modern web application that combines conversation
 
 - Node.js 16+ 
 - npm or yarn
-- OpenAI API key
+- OpenRouter API key
 
 ### Installation
 
@@ -85,7 +85,7 @@ Kapruka AI Shopping Agent is a modern web application that combines conversation
 3. **Set up environment variables**
    Create a `.env.local` file in the root directory:
    ```bash
-   OPENAI_API_KEY=your_openai_api_key_here
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
    ```
 
 4. **Run the development server**

@@ -2,11 +2,7 @@
   "buildCommand": "npm run build",
   "framework": "nextjs",
   "outputDirectory": ".next",
-  "env": [
-    {
-      "key": "OPENROUTER_API_KEY",
-      "description": "OpenRouter API Key for AI-powered chat functionality",
-      "value": "@openrouter_api_key"
-    }
-  ]
+  "env": {
+    "OPENROUTER_API_KEY": "@openrouter_api_key"
+  }
 }

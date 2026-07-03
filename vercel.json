@@ -3,11 +3,6 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   "env": {
-    "NODE_ENV": "production"
-  }  {
-      "key": "OPENAI_API_KEY",
-      "description": "OpenAI API Key for AI-powered chat functionality",
-      "value": "@openai_api_key"
-    }
-  ]
+    "OPENAI_API_KEY": "@openai_api_key"
+  }
 }

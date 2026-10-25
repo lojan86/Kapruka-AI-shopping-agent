@@ -4,7 +4,7 @@ An intelligent AI-powered shopping assistant built with Next.js and OpenRouter, 
 
 ## Overview
 
-Kapruka AI Shopping Agent is a modern web application that combines conversational AI with e-commerce functionality. Users can chat with an intelligent assistant to discover products, receive recommendations, add items to their cart, and proceed to checkout—all within an intuitive interface.
+Kapruka AI Shopping Agent is a modern web application that combines conversational AI with e-commerce functionality. Users can chat with an intelligent assistant to discover products, receive recommendations, add items to their cart, and proceed to checkout all within an intuitive interface.
 
 ## Features
 
